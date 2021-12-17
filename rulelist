@@ -1,0 +1,18 @@
+(.*\.||)(dafahao|mingjinglive|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me)
+(.*\.||)(gov|12377|12315|talk.news.pts.org|creaders|zhuichaguoji|efcc.org|cyberpolice|aboluowang|tuidang|epochtimes|nytimes|dafahao|falundafa|minghui|falunaz|zhengjian|110.qq|mingjingnews|inmediahk|xinsheng|bannedbook|ntdtv|falungong|12321|secretchina|epochweekly|cn.rfi)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me)
+BitTorrent protocol
+Private Tracker protocol
+(.*.||)(gov|12377|12315|talk.news.pts.org|cread­ers|zhuich­aguoji|efcc.org|cy­ber­po­lice|abolu­owang|tu­idang|epochtimes|ny­times|zhengjian|110.qq|mingjingnews|in­medi­ahk|xin­sheng|banned­book|nt­dtv|12321|se­cretchina|epochweekly|cn.rfi).(cn|com|org|net|club|net|fr|tw|hk)
+(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
+(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+(.*\.||)(gash)\.(com|tw)
+(.*\.||)(mycard)\.(com|tw)
+(.+\.|^)(360|so)\.(cn|com)
+(\.guanjia\.qq\.com|qqpcmgr|QQPCMGR)
+(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
+(^.*@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+(.*\.||)(gash)\.(com|tw)
+(.*\.||)(mycard)\.(com|tw)
+(.*\.||)(taobao)\.(com)
+(.*\.||)(metatrader4|metatrader5|mql5)\.(org|com|net)
+(.*\.||)(rising|kingsoft|duba|xindubawukong|jinshanduba)\.(com|net|org)
