@@ -1,0 +1,132 @@
+2021/12/18 02:36:59 [Info] [3436499027] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1006 (abnormal closure): unexpected EOF
+2021/12/18 02:36:59 [Info] [3436499027] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:36:59 [Info] [3222105160] proxy/vmess/inbound: received request for tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [3222105160] rayR/app/mydispatcher: sniffed domain: www.facebook.com
+2021/12/18 02:36:59 [Info] [3222105160] rayR/app/mydispatcher: default route for tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [3222105160] proxy/freedom: opening connection to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [3222105160] transport/internet/tcp: dialing TCP to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Debug] transport/internet: dialing to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [1024243009] proxy/vmess/inbound: received request for tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [1024243009] rayR/app/mydispatcher: sniffed domain: www.facebook.com
+2021/12/18 02:36:59 [Info] [1024243009] rayR/app/mydispatcher: default route for tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [1024243009] proxy/freedom: opening connection to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [1024243009] transport/internet/tcp: dialing TCP to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Debug] transport/internet: dialing to tcp:www.facebook.com:443
+2021/12/18 02:36:59 [Info] [1667425439] transport/internet/tcp: dialing TCP to tcp:5.28.194.100:443
+2021/12/18 02:36:59 [Debug] transport/internet: dialing to tcp:5.28.194.100:443
+2021/12/18 02:37:00 [Info] [3307738998] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3307738998] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [1137054618] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [1137054618] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [387867970] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [387867970] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [446501509] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [446501509] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [3733158329] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3733158329] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [3930475724] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3930475724] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [2933730473] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [2933730473] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [3211452097] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3211452097] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [523035305] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [523035305] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [366195239] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [366195239] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [3719617289] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3719617289] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [1291973389] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [1291973389] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [1134341833] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [1134341833] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [2814678404] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [2814678404] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [2118588895] proxy/vmess/inbound: received request for udp:1.1.1.1:53
+2021/12/18 02:37:00 [Info] [2118588895] rayR/app/mydispatcher: default route for udp:1.1.1.1:53
+2021/12/18 02:37:00 [Info] [2118588895] proxy/freedom: opening connection to udp:1.1.1.1:53
+2021/12/18 02:37:00 [Debug] transport/internet: dialing to udp:1.1.1.1:53
+2021/12/18 02:37:00 [Info] [685249095] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:37:00 [Info] [685249095] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > io: read/write on closed pipe
+2021/12/18 02:37:00 [Info] [3139025731] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:37:00 [Info] [3139025731] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > context canceled
+2021/12/18 02:37:00 [Info] [2958048023] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [2958048023] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [3143114361] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:00 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:00 [Info] [3143114361] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:00 [Info] [2678879031] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:37:00 [Info] [2678879031] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > io: read/write on closed pipe
+2021/12/18 02:37:01 [Info] [1387517977] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1387517977] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [2115332376] proxy/vmess/inbound: received request for tcp:facebook.com:443
+2021/12/18 02:37:01 [Info] [2115332376] rayR/app/mydispatcher: sniffed domain: facebook.com
+2021/12/18 02:37:01 [Info] [2115332376] rayR/app/mydispatcher: default route for tcp:facebook.com:443
+2021/12/18 02:37:01 [Info] [2115332376] proxy/freedom: opening connection to tcp:facebook.com:443
+2021/12/18 02:37:01 [Info] [2115332376] transport/internet/tcp: dialing TCP to tcp:facebook.com:443
+2021/12/18 02:37:01 [Debug] transport/internet: dialing to tcp:facebook.com:443
+2021/12/18 02:37:01 [Info] [1957407309] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1957407309] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [1678003174] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1678003174] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [3659553288] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [3659553288] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [1741146990] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1741146990] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [292104972] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [292104972] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [132915796] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1006 (abnormal closure): unexpected EOF
+2021/12/18 02:37:01 [Info] [132915796] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:37:01 [Info] [3687634413] app/proxyman/inbound: connection ends > proxy/vmess/inbound: connection ends > proxy/vmess/inbound: failed to transfer request > websocket: close 1006 (abnormal closure): unexpected EOF
+2021/12/18 02:37:01 [Info] [3687634413] app/proxyman/outbound: failed to process outbound traffic > proxy/freedom: connection ends > context canceled
+2021/12/18 02:37:01 [Info] [3901795075] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [3901795075] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [877452141] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [877452141] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [336648739] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [336648739] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [3030250797] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [3030250797] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [283126497] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [283126497] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [1725048849] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1725048849] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [1176462000] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1176462000] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [3516485338] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [3516485338] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [1716814737] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [1716814737] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
+2021/12/18 02:37:01 [Info] [3748877588] proxy/vmess/inbound: received request for tcp:static.xx.fbcdn.net:443
+2021/12/18 02:37:01 [Error] rayR/app/mydispatcher: User V2ray_443|b6d8059f-baa5-4593-a2ee-b69423cc5824@v2board.user|1034 access tcp:static.xx.fbcdn.net:443 reject by rule
+2021/12/18 02:37:01 [Info] [3748877588] app/proxyman/inbound: connection ends > proxy/vmess/inbound: failed to dispatch request to tcp:static.xx.fbcdn.net:443 > rayR/app/mydispatcher: destination is reject by rule
